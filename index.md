@@ -1,3 +1,9 @@
+---
+layout: default
+title: Systems Immunology Lab at UVA
+---
+
+
 ## Welcome to the Dolatshahi Systems Immunology Lab
 
 Research in the Dolatshahi lab combines multiplex experimental measurements with computational methods (including statistical machine learning, network inference, information theory, signal processing and kinetic-dynamic modeling) to solve problems in the context of cancer, infectious disease and maternal-neonatal immunology.
