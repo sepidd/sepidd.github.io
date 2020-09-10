@@ -1,51 +1,72 @@
 ---
-layout: default
-title: Systems Immunology Lab at UVA
+layout: page
+title: simple site
+tagline: Easy websites with GitHub Pages
+description: Minimal tutorial on making a simple website with GitHub Pages
 ---
 
+[Github Pages](https://pages.github.com) provide a simple way to make a
+website using
+[Markdown](https://daringfireball.net/projects/markdown/) and
+[git](https://git-scm.com).
 
-## Welcome to the Dolatshahi Systems Immunology Lab
+For me, the painful aspects of making a website are
 
-Research in the Dolatshahi lab combines multiplex experimental measurements with computational methods (including statistical machine learning, network inference, information theory, signal processing and kinetic-dynamic modeling) to solve problems in the context of cancer, infectious disease and maternal-neonatal immunology.
+- Working with html and css
+- Finding a hosting site
+- Transferring stuff to the hosting site
 
-The immune system is complex and ubiquitous. Numerous immune cell types either reside in a particular tissue or circulate throughout the body. Each cell type has its unique roles and approaches in sensing problems, communicating with other cells, and eliciting their immune functions. The Dolatshahi lab takes a systems approach to understand the interconnecting pathways that control immune responses spanning across multiple biological systems and scales.
+With [GitHub Pages](https://pages.github.com), you just write things in
+[Markdown](https://daringfireball.net/projects/markdown/),
+[GitHub](https://github.com) hosts the site for you, and you just push
+material to your GitHub repository with `git add`, `git commit`, and
+`git push`.
 
-This understanding will enable us to optimize immune responses to confront specific issues, ranging from infections to cancer. By building computational models and machine-learning strategies that integrate experimental data across various molecular and cellular scales, Dolatshahi laboratory seeks to: (1) ascertain how biophysical properties of the immune factors (defined as their subclass and post-translational modifications) determine their function, (2) uncover mechanisms responsible for dysregulation of these properties in disease states, and (3) use this knowledge to guide biomarkers for early disease diagnosis, patient stratification and optimized immunotherapies. Another key step in translational immunotherapies is the design of maximally informative animal studies for reliable prediction of the outcome in humans. To this end, Dolatshahi lab also (4) creates predictive computational transfer functions to relate mechanistic models of cellular processes in animals to those in humans. Such functions will enable inter-species translation of molecules to phenotypes. 
+If you love [git](https://git-scm.com/) and
+[GitHub](https://github.com), you'll love
+[GitHub Pages](https://pages.github.com), too.
 
-Dr. Dolatshahi joins the Department of Biomedical Engineering as Assistant Professor on January 1, 2020.  Her lab is looking for talented, enthusiastic and diverse members to join their efforts. The lab’s priority is to provide training to highly motivated engineers and scientists who tackle real-world problems that closely impact people’s lives - and to have fun while doing so!  Prospective graduate students and postdocs are encouraged to contact her: sdolatshahi@virginia.edu
+The sites use [Jekyll](https://jekyllrb.com/), a
+[ruby](https://www.ruby-lang.org/en/) [gem](https://rubygems.org/), to
+convert Markdown files to html, and this part is done
+automatically when you push the materials to the `gh-pages` branch
+of a GitHub repository.
 
-You can use the [editor on GitHub](https://github.com/sepidd/sepidd.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The [GitHub](https://pages.github.com) and
+[Jekyll](https://jekyllrb.com) documentation is great, but I thought it
+would be useful to have a minimal tutorial, for those who just want to
+get going immediately with a simple site. To some readers, what GitHub
+has might be simpler and more direct.  But if you just want to create
+a site like the one you're looking at now, read on.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Start by reading the [Overview page](pages/overview.html), which
+explains the basic structure of these sites. Then read
+[how to make an independent website](pages/independent_site.html). Then
+read any of the other things, such as
+[how to test your site locally](pages/local_test.html).
 
-### Markdown
+- [Overview](pages/overview.html)
+- [Making an independent website](pages/independent_site.html)
+- [Making a personal site](pages/user_site.html)
+- [Making a site for a project](pages/project_site.html)
+- [Making a jekyll-free site](pages/nojekyll.html)
+- [Testing your site locally](pages/local_test.html)
+- [Resources](pages/resources.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If anything here is confusing (or _wrong_!), or if I've missed
+important details, please
+[submit an issue](https://github.com/kbroman/simple_site/issues), or (even
+better) fork [the GitHub repository for this website](https://github.com/kbroman/simple_site),
+make modifications, and submit a pull request.
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+The source for this minimal tutorial is [on github](https://github.com/kbroman/simple_site).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sepidd/sepidd.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Also see my [tutorials](https://kbroman.org/pages/tutorials) on
+[git/github](https://kbroman.org/github_tutorial),
+[GNU make](https://kbroman.org/minimal_make),
+[knitr](https://kbroman.org/knitr_knutshell),
+[R packages](https://kbroman.org/pkg_primer),
+[data organization](https://kbroman.org/dataorg),
+and [reproducible research](https://kbroman.org/steps2rr).

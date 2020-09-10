@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">HOME</a></li>
-		        	<li><a href="/about">RESEARCH</a></li>
-	        		<li><a href="/people">PEOPLE</a></li>
-	        		<li><a href="/publications">PUBLICATIONS</a></li>
-				<li><a href="/positions">POSITIONS</a></li>
-				<li><a href="/news">NEWS</a></li>
-				<li><a href="/contact">CONTACT</a></li>
-
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% include themes/twitter/default.html %}
